@@ -10,4 +10,9 @@ public class helloworld {
     public String test1(){
         return "test1";
     }
+
+    @RequestMapping(value = "test2")
+    public String test2(){
+        return "test2";
+    }
 }
